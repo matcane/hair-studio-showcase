@@ -1,0 +1,42 @@
+# Expo
+.expo/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+/ios
+/android
+
+# Metro
+.metro-health-check*
+
+# local env / secrets
+.env*.local
+google-services.json
+
+# dependencies
+node_modules/
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.log*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env / tooling
+.env*.local
+*.tsbuildinfo
+mcp.json
+.turbo/
+
+coverage/

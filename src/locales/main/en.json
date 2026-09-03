@@ -1,0 +1,485 @@
+{
+  "tabs": {
+    "home": "Studio",
+    "gallery": "Gallery",
+    "settings": "Settings"
+  },
+  "navigation": {
+    "home": "Studio Insights",
+    "gallery": "Gallery",
+    "settings": "Settings",
+    "celebrity_hair_change": "Celebrity Hair",
+    "hair_change": "Hair Style",
+    "color_change": "Hair Color",
+    "makeup_change": "Make-up",
+    "faceShape": "Face Shape"
+  },
+  "home": {
+    "celebrity_hair_change": "Celebrity Hair",
+    "hair_change": "Hair Style",
+    "color_change": "Hair Color",
+    "makeup_change": "Make-up",
+    "fun_change": "Perfect for Fun",
+    "more": "More",
+    "seeAll": "See all"
+  },
+  "hairFilters": {
+    "length": {
+      "menuTitle": "Length",
+      "pillLabel": "Length",
+      "all": "All",
+      "short": "Short",
+      "medium": "Medium",
+      "long": "Long"
+    },
+    "type": {
+      "menuTitle": "Type",
+      "pillLabel": "Type",
+      "all": "All",
+      "straight": "Straight",
+      "wavy": "Wavy",
+      "curly": "Curly"
+    }
+  },
+  "hairCatalog": {
+    "hair_change": {
+      "shag": {
+        "title": "Shag"
+      },
+      "curly_bob": {
+        "title": "Curly Bob"
+      },
+      "gorgeous_curls": {
+        "title": "Gorgeous Curls"
+      },
+      "long_bob": {
+        "title": "Long Bob"
+      },
+      "pixie_cut": {
+        "title": "Pixie Cut"
+      },
+      "wolf_cut": {
+        "title": "Wolf Cut"
+      },
+      "butterfly_cut": {
+        "title": "Butterfly Cut"
+      },
+      "curtain_bangs": {
+        "title": "Curtain Bangs"
+      },
+      "french_bob": {
+        "title": "French Bob"
+      },
+      "beach_waves": {
+        "title": "Beach Waves"
+      }
+    },
+    "color_change": {
+      "honey_balayage": {
+        "title": "Honey Balayage"
+      },
+      "caramel_highlights": {
+        "title": "Caramel Highlights"
+      },
+      "bronde": {
+        "title": "Bronde"
+      },
+      "money_piece": {
+        "title": "Money Piece"
+      },
+      "shadow_root_blonde": {
+        "title": "Shadow Root Blonde"
+      },
+      "mocha_brunette": {
+        "title": "Mocha Brunette"
+      },
+      "chocolate_brown": {
+        "title": "Chocolate Brown"
+      },
+      "soft_copper": {
+        "title": "Soft Copper"
+      },
+      "ash_brown": {
+        "title": "Ash Brown"
+      },
+      "strawberry_blonde": {
+        "title": "Strawberry Blonde"
+      }
+    },
+    "celebrity_hair_change": {
+      "alisa_liu": {
+        "title": "Alisa Liu"
+      },
+      "anya_taylor_joy": {
+        "title": "Anya Taylor-Joy"
+      },
+      "anne_hathaway": {
+        "title": "Anne Hathaway"
+      },
+      "ariana_grande": {
+        "title": "Ariana Grande"
+      },
+      "billie_eilish": {
+        "title": "Billie Eilish"
+      },
+      "blake_lively": {
+        "title": "Blake Lively"
+      },
+      "brooke_monk": {
+        "title": "Brooke Monk"
+      },
+      "dakota_johnson": {
+        "title": "Dakota Johnson"
+      },
+      "dua_lipa": {
+        "title": "Dua Lipa"
+      },
+      "emily_blunt": {
+        "title": "Emily Blunt"
+      }
+    },
+    "makeup_change": {
+      "soft_glam": {
+        "title": "Soft Glam"
+      },
+      "everyday_neutral": {
+        "title": "Everyday Neutral"
+      },
+      "office_polished": {
+        "title": "Office Polished"
+      },
+      "bridal_classic": {
+        "title": "Bridal Classic"
+      },
+      "fresh_face": {
+        "title": "Fresh Face"
+      },
+      "soft_lift": {
+        "title": "Soft Lift"
+      },
+      "cool_taupe": {
+        "title": "Cool Taupe"
+      },
+      "smoky_eye": {
+        "title": "Smoky Eye"
+      },
+      "bold_red_lip": {
+        "title": "Bold Red Lip"
+      },
+      "bronze_goddess": {
+        "title": "Bronze Goddess"
+      }
+    },
+    "fun_change": {
+      "old_me": {
+        "title": "Old Me"
+      },
+      "baby_face": {
+        "title": "Baby Face"
+      },
+      "glow_up": {
+        "title": "Glow Up"
+      },
+      "freckles": {
+        "title": "Freckles"
+      },
+      "gender_swap": {
+        "title": "Gender Swap"
+      }
+    }
+  },
+  "camera": {
+    "permissionRequired": "Camera access is required to take a portrait photo.",
+    "grantPermission": "Grant permission",
+    "noDevice": "No camera device available.",
+    "permissionAlert": {
+      "title": "Camera access needed",
+      "message": "We need camera access to capture your photo. Enable it in Settings to continue.",
+      "notNow": "Not now",
+      "openSettings": "Open Settings"
+    },
+    "galleryPermissionAlert": {
+      "title": "Photo library access needed",
+      "message": "We need access to your photos to pick an image. Enable it in Settings to continue.",
+      "notNow": "Not now",
+      "openSettings": "Open Settings"
+    },
+    "cantUsePhoto": "Can't use this photo",
+    "captureFailed": {
+      "title": "Couldn't capture photo",
+      "message": "Take another photo and try again."
+    },
+    "detectionStatus": {
+      "No face": "No face",
+      "Face detected": "Face detected",
+      "Face out of frame": "Face out of frame",
+      "Too many faces": "Too many faces"
+    },
+    "errors": {
+      "No face": "We couldn't find a face in this photo. Try another one with a clear face.",
+      "Too many faces": "Please use a photo with only one face.",
+      "Face out of frame": "The face must be fully visible in the photo."
+    }
+  },
+  "face-shape": {
+    "badge": "NEW FEATURE",
+    "title": "Face Shape Detector",
+    "description": "Find the perfect hair styles tailored to your unique facial structure.",
+    "cta": "Scan My Face",
+    "mappedBadge": "Face mapped",
+    "analyzing": "Analyzing your face shape…",
+    "scanFailed": "Scan Failed",
+    "tryAgain": "Try Again",
+    "scanAgain": "Scan Again",
+    "forYou": "For you",
+    "missingDraft": {
+      "title": "Take a photo first",
+      "subtitle": "Capture or upload a portrait so we can map your face shape.",
+      "openCamera": "Open camera"
+    },
+    "result": {
+      "overline": "Your face shape",
+      "combines": "Your face combines traits of {{primary}} and {{alternate}} shapes."
+    },
+    "shapes": {
+      "oval": {
+        "name": "Oval",
+        "summary": "Balanced proportions with a gently tapered chin. One of the most versatile shapes for any hairstyle.",
+        "highlight": "Balanced proportions, soft taper",
+        "traits": {
+          "0": "Balanced",
+          "1": "Versatile",
+          "2": "Soft lines"
+        }
+      },
+      "round": {
+        "name": "Round",
+        "summary": "Soft curves with similar length and width. Styles with height at the crown add elegant length.",
+        "highlight": "Soft curves, similar length & width",
+        "traits": {
+          "0": "Full cheeks",
+          "1": "Soft curves",
+          "2": "Add length"
+        }
+      },
+      "square": {
+        "name": "Square",
+        "summary": "A defined jawline with bold bone structure. Soft, layered styles balance your strong angles.",
+        "highlight": "Defined jaw, strong angles",
+        "traits": {
+          "0": "Strong jaw",
+          "1": "Angular",
+          "2": "Layer-friendly"
+        }
+      },
+      "heart": {
+        "name": "Heart",
+        "summary": "Wider at the temples, narrowing to the chin. Volume at the jawline creates beautiful balance.",
+        "highlight": "Wide forehead, tapered chin",
+        "traits": {
+          "0": "Wide forehead",
+          "1": "Tapered chin",
+          "2": "High cheekbones"
+        }
+      },
+      "diamond": {
+        "name": "Diamond",
+        "summary": "Cheekbones are your standout feature, with a narrower forehead and chin. Crown volume flatters you.",
+        "highlight": "High cheekbones, narrow chin",
+        "traits": {
+          "0": "High cheekbones",
+          "1": "Narrow chin",
+          "2": "Striking"
+        }
+      },
+      "oblong": {
+        "name": "Oblong",
+        "summary": "An elegantly long face with even width throughout. Side volume and bangs soften the silhouette.",
+        "highlight": "Elongated, even width throughout",
+        "traits": {
+          "0": "Elongated",
+          "1": "Even width",
+          "2": "Side volume"
+        }
+      }
+    },
+    "failures": {
+      "no_face": {
+        "message": "We couldn't find a face in this photo. Use a clear, front-facing photo.",
+        "tips": {
+          "0": "No face visible",
+          "1": "Photo may be too dark, blurry, or low quality",
+          "2": "Face turned away, covered, or hidden by hair or accessories"
+        }
+      },
+      "multiple_faces": {
+        "message": "More than one face was detected. Use a photo with only your face in it.",
+        "tips": {
+          "0": "More than one person detected in the photo",
+          "1": "Use a photo with only your face in frame",
+          "2": "Avoid group shots or people in the background"
+        }
+      },
+      "head_tilted": {
+        "message": "Your head looks tilted. Face the camera directly and keep your head straight.",
+        "tips": {
+          "0": "Face the camera directly, head straight",
+          "1": "Don't tilt or turn your head to the side",
+          "2": "Keep your chin level and use even lighting"
+        }
+      },
+      "detection_failed": {
+        "message": "Something went wrong while analyzing your photo. Please try again.",
+        "tips": {
+          "0": "We couldn't read your facial structure from this photo",
+          "1": "Try again with brighter, sharper lighting",
+          "2": "Make sure your whole face is visible and unobstructed"
+        }
+      },
+      "detector_unavailable": {
+        "message": "Face detection isn't included in this app build. Reinstall with a fresh native build. On iOS Simulator ML Kit often doesn't work — use a physical device.",
+        "tips": {
+          "0": "On iOS Simulator, use a physical device instead",
+          "1": "Reinstall with a fresh native build",
+          "2": "Face detection isn't included in this app build"
+        }
+      }
+    }
+  },
+  "gallery": {
+    "segments": {
+      "styles": "Styles",
+      "celebs": "Celebs",
+      "colors": "Colors",
+      "makeup": "Make-up",
+      "fun": "Fun"
+    },
+    "generate": "Create",
+    "cancel": "Cancel",
+    "creating": {
+      "title": {
+        "hair_change": "Creating your hairstyle",
+        "color_change": "Creating your hair color",
+        "celebrity_hair_change": "Creating your hairstyle",
+        "makeup_change": "Creating your make-up",
+        "fun_change": "Creating your look"
+      },
+      "subtitle": "No need to wait here - keep exploring the app while we finish. Just don't close it.",
+      "cta": "Keep exploring"
+    },
+    "noSelectedOption": {
+      "title": "No selected option",
+      "message": "Please select desired look option"
+    },
+    "imageConsent": {
+      "title": "Third-party AI processing",
+      "message": "To create your look preview, we send your cropped portrait securely to Google (a third-party AI) so Gemini image editing can generate the picture you chose.\n\nSpecifically transmitted for that purpose:\n\n• Your selected portrait crop (image pixels)\n\n• Text describing the look option you picked\n\nOur backend forwards this over an encrypted channel for that single request only; we do not store your selfie in our own databases.\n\nA pseudonymous subscriber identifier may travel with the request for billing and usage limits — not your portrait as a persistent database record tied to facial analysis.\n\nFull detail: Privacy Policy.",
+      "privacyPolicy": "Privacy policy",
+      "agree": "Agree & create",
+      "openLinkFailed": {
+        "title": "Couldn't open link",
+        "message": "Try again later or paste the Privacy Policy URL in your browser."
+      }
+    },
+    "delete": {
+      "title": "Delete this look?",
+      "message": "It will be removed from your history on this device.",
+      "confirm": "Delete",
+      "failed": {
+        "title": "Could not delete",
+        "message": "Please try again."
+      }
+    },
+    "reuse": {
+      "button": "Reuse",
+      "before": "Original photo",
+      "after": "This look"
+    },
+    "details": {
+      "heading": "Look details",
+      "empty": "No look details available.",
+      "style": "Style",
+      "color": "Color",
+      "celeb": "Celebrity",
+      "makeup": "Make-up",
+      "fun": "Fun",
+      "created": "Created",
+      "length": "Length",
+      "texture": "Texture"
+    },
+    "save": {
+      "permission": {
+        "title": "Permission needed",
+        "message": "Allow photo library access to save your result.",
+        "notNow": "Not now",
+        "openSettings": "Open Settings"
+      },
+      "success": {
+        "title": "Saved",
+        "message": "Your hairstyle preview was saved to your photo library."
+      },
+      "failed": {
+        "title": "Could not save",
+        "message": "Something went wrong while saving the image."
+      }
+    },
+    "share": {
+      "dialogTitle": "Share your look",
+      "unavailable": {
+        "title": "Sharing unavailable",
+        "message": "Sharing is not available on this device."
+      },
+      "failed": {
+        "title": "Could not share",
+        "message": "Something went wrong while sharing the image."
+      }
+    },
+    "generation": {
+      "failed": {
+        "title": "Couldn't create look",
+        "generic": "Something went wrong. Please try again.",
+        "network": "Check your internet connection and try again.",
+        "deviceCheck": "Couldn't verify this device. Please try again.",
+        "appAttest": "Couldn't verify this app installation. Please try again."
+      }
+    }
+  },
+  "settings": {
+    "experience": {
+      "label": "Experience",
+      "rateTheApp": {
+        "title": "Rate the app"
+      },
+      "language": {
+        "title": "Language"
+      }
+    },
+    "legal": {
+      "label": "Legal",
+      "privacyPolicy": {
+        "title": "Privacy Policy"
+      },
+      "termsOfUse": {
+        "title": "Terms of Use (EULA)"
+      },
+      "resetAiSharing": {
+        "title": "Reset AI sharing choice",
+        "alertTitle": "Reset AI sharing choice",
+        "alertMessage": "The next time you create a look, we will explain again and ask permission before sending your portrait to Google. This does not affect your subscription."
+      }
+    },
+    "information": {
+      "label": "Information",
+      "version": {
+        "title": "Version"
+      }
+    }
+  },
+  "storeReview": {
+    "gate": {
+      "title": "Are you enjoying Hair Studio?",
+      "yes": "Yes",
+      "no": "No"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "device-check",
+  "version": "0.1.0",
+  "description": "Apple DeviceCheck (DCDevice) token wrapper",
+  "license": "UNLICENSED",
+  "homepage": "https://docs.expo.dev/modules/"
+}

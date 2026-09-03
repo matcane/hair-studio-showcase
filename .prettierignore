@@ -1,0 +1,13 @@
+# Tooling
+README.md
+.agents/**
+.cursor/**
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+# Expo app generated / native
+.expo/
+expo-env.d.ts
+ios/
+android/
+src/sqlite/drizzle/

@@ -1,0 +1,42 @@
+diff --git a/node_modules/react-native-vision-camera-worklets/VisionCameraWorklets.podspec b/node_modules/react-native-vision-camera-worklets/VisionCameraWorklets.podspec
+index ed03a68..8c23f5d 100644
+--- a/node_modules/react-native-vision-camera-worklets/VisionCameraWorklets.podspec
++++ b/node_modules/react-native-vision-camera-worklets/VisionCameraWorklets.podspec
+@@ -31,4 +31,23 @@ Pod::Spec.new do |s|
+   s.dependency 'React-jsi'
+   s.dependency 'React-callinvoker'
+   install_modules_dependencies(s)
++
++  # With ios.useFrameworks = static, RNWorklets flattens headers to
++  # RNWorklets.framework/Headers/RunLoop/... and drops the worklets/ prefix
++  # that <worklets/RunLoop/AsyncQueue.h> expects. Point at the source tree.
++  worklets_cpp = File.join(
++    File.dirname(`node --print "require.resolve('react-native-worklets/package.json')"`.strip),
++    'Common/cpp'
++  )
++  xcconfig = (s.attributes_hash['pod_target_xcconfig'] || {}).dup
++  existing_paths = xcconfig['HEADER_SEARCH_PATHS']
++  paths = case existing_paths
++          when Array then existing_paths
++          when String then [existing_paths]
++          else []
++          end
++  paths << "\"#{worklets_cpp}\""
++  paths << '$(inherited)'
++  xcconfig['HEADER_SEARCH_PATHS'] = paths.join(' ')
++  s.pod_target_xcconfig = xcconfig
+ end
+diff --git a/node_modules/react-native-vision-camera-worklets/cpp/JSIConverter+AsyncQueue.hpp b/node_modules/react-native-vision-camera-worklets/cpp/JSIConverter+AsyncQueue.hpp
+index 5b93f23..46078e3 100644
+--- a/node_modules/react-native-vision-camera-worklets/cpp/JSIConverter+AsyncQueue.hpp
++++ b/node_modules/react-native-vision-camera-worklets/cpp/JSIConverter+AsyncQueue.hpp
+@@ -12,6 +12,9 @@
+ #include <worklets/RunLoop/AsyncQueue.h>
+ #elif __has_include(<RNWorklets/worklets/RunLoop/AsyncQueue.h>)
+ #include <RNWorklets/worklets/RunLoop/AsyncQueue.h>
++#elif __has_include(<RNWorklets/RunLoop/AsyncQueue.h>)
++// Static frameworks flatten RNWorklets headers (no worklets/ prefix).
++#include <RNWorklets/RunLoop/AsyncQueue.h>
+ #else
+ #error react-native-worklets Prefab not found!
+ #endif

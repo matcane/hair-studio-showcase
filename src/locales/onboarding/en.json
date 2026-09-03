@@ -1,0 +1,22 @@
+{
+  "steps": {
+    "hair-change": {
+      "title": "New Hair,\n",
+      "titleAccent": "Same You",
+      "subtitle": "Preview a fresh cut before you commit.",
+      "cta": "Next"
+    },
+    "hair-color": {
+      "title": "Color Without Limits\n",
+      "titleAccent": " Express Your Style",
+      "subtitle": "Preview natural and bold hair colors instantly.",
+      "cta": "Next"
+    },
+    "make-up": {
+      "title": "Makeup Magic\n",
+      "titleAccent": " In One Tap",
+      "subtitle": "Try soft glam, bold lips, and more on your look.",
+      "cta": "Continue"
+    }
+  }
+}

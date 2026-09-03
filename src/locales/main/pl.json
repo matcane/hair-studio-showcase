@@ -1,0 +1,485 @@
+{
+  "tabs": {
+    "home": "Studio",
+    "gallery": "Galeria",
+    "settings": "Ustawienia"
+  },
+  "navigation": {
+    "home": "Twoje Studio",
+    "gallery": "Galeria",
+    "settings": "Ustawienia",
+    "celebrity_hair_change": "Fryzury celebrytów",
+    "hair_change": "Fryzura",
+    "color_change": "Kolor włosów",
+    "makeup_change": "Makijaż",
+    "faceShape": "Kształt twarzy"
+  },
+  "home": {
+    "celebrity_hair_change": "Fryzury celebrytów",
+    "hair_change": "Fryzury",
+    "color_change": "Kolor włosów",
+    "makeup_change": "Makijaż",
+    "fun_change": "Dla zabawy",
+    "more": "Więcej",
+    "seeAll": "Zobacz wszystkie"
+  },
+  "hairFilters": {
+    "length": {
+      "menuTitle": "Długość",
+      "pillLabel": "Długość",
+      "all": "Wszystkie",
+      "short": "Krótkie",
+      "medium": "Średnie",
+      "long": "Długie"
+    },
+    "type": {
+      "menuTitle": "Typ",
+      "pillLabel": "Typ",
+      "all": "Wszystkie",
+      "straight": "Proste",
+      "wavy": "Falowane",
+      "curly": "Kręcone"
+    }
+  },
+  "hairCatalog": {
+    "hair_change": {
+      "shag": {
+        "title": "Shag"
+      },
+      "curly_bob": {
+        "title": "Bob z lokami"
+      },
+      "gorgeous_curls": {
+        "title": "Lśniące loki"
+      },
+      "long_bob": {
+        "title": "Długi bob"
+      },
+      "pixie_cut": {
+        "title": "Pixie"
+      },
+      "wolf_cut": {
+        "title": "Wolf cut"
+      },
+      "butterfly_cut": {
+        "title": "Butterfly cut"
+      },
+      "curtain_bangs": {
+        "title": "Curtain bangs"
+      },
+      "french_bob": {
+        "title": "French bob"
+      },
+      "beach_waves": {
+        "title": "Beach waves"
+      }
+    },
+    "color_change": {
+      "honey_balayage": {
+        "title": "Honey balayage"
+      },
+      "caramel_highlights": {
+        "title": "Karmelowe pasemka"
+      },
+      "bronde": {
+        "title": "Bronde"
+      },
+      "money_piece": {
+        "title": "Money piece"
+      },
+      "shadow_root_blonde": {
+        "title": "Blond z shadow root"
+      },
+      "mocha_brunette": {
+        "title": "Mocha brunette"
+      },
+      "chocolate_brown": {
+        "title": "Czekoladowy brąz"
+      },
+      "soft_copper": {
+        "title": "Miękka miedź"
+      },
+      "ash_brown": {
+        "title": "Popielaty brąz"
+      },
+      "strawberry_blonde": {
+        "title": "Strawberry blonde"
+      }
+    },
+    "celebrity_hair_change": {
+      "alisa_liu": {
+        "title": "Alisa Liu"
+      },
+      "anya_taylor_joy": {
+        "title": "Anya Taylor-Joy"
+      },
+      "anne_hathaway": {
+        "title": "Anne Hathaway"
+      },
+      "ariana_grande": {
+        "title": "Ariana Grande"
+      },
+      "billie_eilish": {
+        "title": "Billie Eilish"
+      },
+      "blake_lively": {
+        "title": "Blake Lively"
+      },
+      "brooke_monk": {
+        "title": "Brooke Monk"
+      },
+      "dakota_johnson": {
+        "title": "Dakota Johnson"
+      },
+      "dua_lipa": {
+        "title": "Dua Lipa"
+      },
+      "emily_blunt": {
+        "title": "Emily Blunt"
+      }
+    },
+    "makeup_change": {
+      "soft_glam": {
+        "title": "Soft Glam"
+      },
+      "everyday_neutral": {
+        "title": "Everyday Neutral"
+      },
+      "office_polished": {
+        "title": "Office Polished"
+      },
+      "bridal_classic": {
+        "title": "Bridal Classic"
+      },
+      "fresh_face": {
+        "title": "Fresh Face"
+      },
+      "soft_lift": {
+        "title": "Soft Lift"
+      },
+      "cool_taupe": {
+        "title": "Cool Taupe"
+      },
+      "smoky_eye": {
+        "title": "Smoky Eye"
+      },
+      "bold_red_lip": {
+        "title": "Bold Red Lip"
+      },
+      "bronze_goddess": {
+        "title": "Bronze Goddess"
+      }
+    },
+    "fun_change": {
+      "old_me": {
+        "title": "Stara ja"
+      },
+      "baby_face": {
+        "title": "Dziecięca twarz"
+      },
+      "glow_up": {
+        "title": "Glow Up"
+      },
+      "freckles": {
+        "title": "Piegi"
+      },
+      "gender_swap": {
+        "title": "Zmiana płci"
+      }
+    }
+  },
+  "camera": {
+    "permissionRequired": "Dostęp do aparatu jest wymagany, aby zrobić zdjęcie portretowe.",
+    "grantPermission": "Udziel uprawnień",
+    "noDevice": "Brak dostępnego aparatu.",
+    "permissionAlert": {
+      "title": "Potrzebny dostęp do aparatu",
+      "message": "Potrzebujemy dostępu do aparatu, żeby zrobić zdjęcie. Włącz go w Ustawieniach, aby kontynuować.",
+      "notNow": "Nie teraz",
+      "openSettings": "Otwórz Ustawienia"
+    },
+    "galleryPermissionAlert": {
+      "title": "Potrzebny dostęp do galerii",
+      "message": "Potrzebujemy dostępu do zdjęć, żeby wybrać zdjęcie. Włącz go w Ustawieniach, aby kontynuować.",
+      "notNow": "Nie teraz",
+      "openSettings": "Otwórz Ustawienia"
+    },
+    "cantUsePhoto": "Nie można użyć tego zdjęcia",
+    "captureFailed": {
+      "title": "Nie udało się zrobić zdjęcia",
+      "message": "Zrób kolejne zdjęcie i spróbuj ponownie."
+    },
+    "detectionStatus": {
+      "No face": "Brak twarzy",
+      "Face detected": "Twarz wykryta",
+      "Face out of frame": "Twarz poza kadrem",
+      "Too many faces": "Za dużo twarzy"
+    },
+    "errors": {
+      "No face": "Nie znaleźliśmy twarzy na tym zdjęciu. Wybierz inne z wyraźną twarzą.",
+      "Too many faces": "Użyj zdjęcia z tylko jedną twarzą.",
+      "Face out of frame": "Cała twarz musi być widoczna na zdjęciu."
+    }
+  },
+  "face-shape": {
+    "badge": "NOWA FUNKCJA",
+    "title": "Detektor kształtu twarzy",
+    "description": "Znajdź idealne fryzury dopasowane do Twojej unikalnej twarzy.",
+    "cta": "Zeskanuj twarz",
+    "mappedBadge": "Twarz zmapowana",
+    "analyzing": "Analizujemy kształt Twojej twarzy…",
+    "scanFailed": "Skanowanie nie powiodło się",
+    "tryAgain": "Spróbuj ponownie",
+    "scanAgain": "Skanuj ponownie",
+    "forYou": "Dla Ciebie",
+    "missingDraft": {
+      "title": "Najpierw zrób zdjęcie",
+      "subtitle": "Zrób lub wgraj portret, żebyśmy mogli określić kształt Twojej twarzy.",
+      "openCamera": "Otwórz aparat"
+    },
+    "result": {
+      "overline": "Twój kształt twarzy",
+      "combines": "Twoja twarz łączy cechy kształtów {{primary}} i {{alternate}}."
+    },
+    "shapes": {
+      "oval": {
+        "name": "Owal",
+        "summary": "Zrównoważone proporcje z delikatnie zwężającą się brodą. Jeden z najbardziej uniwersalnych kształtów pod każdą fryzurę.",
+        "highlight": "Zrównoważone proporcje, delikatne zwężenie",
+        "traits": {
+          "0": "Zrównoważony",
+          "1": "Uniwersalny",
+          "2": "Miękkie linie"
+        }
+      },
+      "round": {
+        "name": "Okrągły",
+        "summary": "Miękkie krzywe o podobnej długości i szerokości. Fryzury z wysokością na czubku głowy dodają eleganckiej długości.",
+        "highlight": "Miękkie krzywe, podobna długość i szerokość",
+        "traits": {
+          "0": "Pełne policzki",
+          "1": "Miękkie krzywe",
+          "2": "Dodaj długości"
+        }
+      },
+      "square": {
+        "name": "Kwadratowy",
+        "summary": "Wyraźna linia żuchwy i mocna budowa kości. Miękkie, warstwowe fryzury równoważą mocne kąty.",
+        "highlight": "Wyraźna żuchwa, mocne kąty",
+        "traits": {
+          "0": "Mocna żuchwa",
+          "1": "Kanciasty",
+          "2": "Lubią warstwy"
+        }
+      },
+      "heart": {
+        "name": "Serce",
+        "summary": "Szersza w skroniach, zwężająca się ku brodzie. Objętość przy żuchwie pięknie równoważy proporcje.",
+        "highlight": "Szerokie czoło, zwężająca się broda",
+        "traits": {
+          "0": "Szerokie czoło",
+          "1": "Zwężająca się broda",
+          "2": "Wysokie kości policzkowe"
+        }
+      },
+      "diamond": {
+        "name": "Diament",
+        "summary": "Kości policzkowe to Twoja wyróżniająca cecha, z węższym czołem i brodą. Objętość na czubku głowy Ci służy.",
+        "highlight": "Wysokie kości policzkowe, wąska broda",
+        "traits": {
+          "0": "Wysokie kości policzkowe",
+          "1": "Wąska broda",
+          "2": "Wyrazisty"
+        }
+      },
+      "oblong": {
+        "name": "Podłużny",
+        "summary": "Elegancko wydłużona twarz o równej szerokości. Boczna objętość i grzywka zmiękczają sylwetkę.",
+        "highlight": "Wydłużony, równa szerokość na całej długości",
+        "traits": {
+          "0": "Wydłużony",
+          "1": "Równa szerokość",
+          "2": "Boczna objętość"
+        }
+      }
+    },
+    "failures": {
+      "no_face": {
+        "message": "Nie znaleźliśmy twarzy na tym zdjęciu. Użyj wyraźnego zdjęcia en face.",
+        "tips": {
+          "0": "Brak widocznej twarzy",
+          "1": "Zdjęcie może być zbyt ciemne, rozmazane lub niskiej jakości",
+          "2": "Twarz odwrócona, zasłonięta włosami lub dodatkami"
+        }
+      },
+      "multiple_faces": {
+        "message": "Wykryto więcej niż jedną twarz. Użyj zdjęcia, na którym jesteś tylko Ty.",
+        "tips": {
+          "0": "Na zdjęciu wykryto więcej niż jedną osobę",
+          "1": "Użyj zdjęcia tylko z Twoją twarzą w kadrze",
+          "2": "Unikaj zdjęć grupowych i osób w tle"
+        }
+      },
+      "head_tilted": {
+        "message": "Twoja głowa wygląda na przechyloną. Spójrz prosto w aparat i trzymaj głowę prosto.",
+        "tips": {
+          "0": "Spójrz prosto w aparat, głowa prosto",
+          "1": "Nie przechylaj ani nie odwracaj głowy na bok",
+          "2": "Trzymaj brodę równo i użyj równomiernego światła"
+        }
+      },
+      "detection_failed": {
+        "message": "Coś poszło nie tak podczas analizy zdjęcia. Spróbuj ponownie.",
+        "tips": {
+          "0": "Nie udało się odczytać struktury twarzy z tego zdjęcia",
+          "1": "Spróbuj ponownie przy jaśniejszym, ostrzejszym świetle",
+          "2": "Upewnij się, że cała twarz jest widoczna i nic jej nie zasłania"
+        }
+      },
+      "detector_unavailable": {
+        "message": "Wykrywanie twarzy nie jest dostępne w tej wersji aplikacji. Zainstaluj ponownie świeżą natywną build. Na symulatorze iOS ML Kit często nie działa — użyj fizycznego urządzenia.",
+        "tips": {
+          "0": "Na symulatorze iOS użyj fizycznego urządzenia",
+          "1": "Zainstaluj ponownie świeżą natywną build",
+          "2": "Wykrywanie twarzy nie jest dostępne w tej wersji aplikacji"
+        }
+      }
+    }
+  },
+  "gallery": {
+    "segments": {
+      "styles": "Fryzury",
+      "celebs": "Celebryci",
+      "colors": "Kolory",
+      "makeup": "Makijaż",
+      "fun": "Zabawa"
+    },
+    "generate": "Utwórz",
+    "cancel": "Anuluj",
+    "creating": {
+      "title": {
+        "hair_change": "Tworzymy Twoją fryzurę",
+        "color_change": "Tworzymy kolor włosów",
+        "celebrity_hair_change": "Tworzymy Twoją fryzurę",
+        "makeup_change": "Tworzymy makijaż",
+        "fun_change": "Tworzymy efekt"
+      },
+      "subtitle": "Nie musisz tu czekać - możesz dalej korzystać z aplikacji, tylko jej nie zamykaj.",
+      "cta": "Przeglądaj dalej"
+    },
+    "noSelectedOption": {
+      "title": "Nie wybrano opcji",
+      "message": "Wybierz fryzurę lub kolor"
+    },
+    "imageConsent": {
+      "title": "Przetwarzanie przez zewnętrzne AI",
+      "message": "Aby utworzyć podgląd wyglądu, bezpiecznie wysyłamy Twój przycięty portret do Google (zewnętrznego AI), żeby usługa Gemini do edycji obrazu wygenerowała wybrany przez Ciebie efekt.\n\nW tym celu przekazywane są:\n\n• Wybrany przycięty portret (piksele obrazu)\n\n• Tekst opisujący wybraną opcję wyglądu\n\nNasz backend przesyła to zaszyfrowanym kanałem tylko w ramach tego jednego żądania; nie przechowujemy Twojego selfie we własnych bazach danych.\n\nZ żądaniem może podróżować pseudonimowy identyfikator subskrybenta na potrzeby rozliczeń i limitów użycia — nie Twój portret jako trwały rekord w bazie powiązany z analizą twarzy.\n\nSzczegóły: Polityka prywatności.",
+      "privacyPolicy": "Polityka prywatności",
+      "agree": "Zgadzam się i utwórz",
+      "openLinkFailed": {
+        "title": "Nie udało się otworzyć linku",
+        "message": "Spróbuj ponownie później lub wklej adres Polityki prywatności w przeglądarce."
+      }
+    },
+    "delete": {
+      "title": "Usunąć tę fryzurę?",
+      "message": "Zostanie usunięta z historii na tym urządzeniu.",
+      "confirm": "Usuń",
+      "failed": {
+        "title": "Nie udało się usunąć",
+        "message": "Spróbuj ponownie."
+      }
+    },
+    "reuse": {
+      "button": "Użyj ponownie",
+      "before": "Oryginalne zdjęcie",
+      "after": "Ten wygląd"
+    },
+    "details": {
+      "heading": "Szczegóły fryzury",
+      "empty": "Brak szczegółów fryzury.",
+      "style": "Fryzura",
+      "color": "Kolor",
+      "celeb": "Celebryta",
+      "makeup": "Makijaż",
+      "fun": "Zabawa",
+      "created": "Utworzono",
+      "length": "Długość",
+      "texture": "Rodzaj"
+    },
+    "save": {
+      "permission": {
+        "title": "Potrzebne uprawnienie",
+        "message": "Zezwól na dostęp do galerii zdjęć, aby zapisać wynik.",
+        "notNow": "Nie teraz",
+        "openSettings": "Otwórz Ustawienia"
+      },
+      "success": {
+        "title": "Zapisano",
+        "message": "Podgląd fryzury został zapisany w galerii zdjęć."
+      },
+      "failed": {
+        "title": "Nie udało się zapisać",
+        "message": "Coś poszło nie tak podczas zapisywania obrazu."
+      }
+    },
+    "share": {
+      "dialogTitle": "Udostępnij fryzurę",
+      "unavailable": {
+        "title": "Udostępnianie niedostępne",
+        "message": "Udostępnianie nie jest dostępne na tym urządzeniu."
+      },
+      "failed": {
+        "title": "Nie udało się udostępnić",
+        "message": "Coś poszło nie tak podczas udostępniania obrazu."
+      }
+    },
+    "generation": {
+      "failed": {
+        "title": "Nie udało się utworzyć fryzury",
+        "generic": "Coś poszło nie tak. Spróbuj ponownie.",
+        "network": "Sprawdź połączenie z internetem i spróbuj ponownie.",
+        "deviceCheck": "Nie udało się zweryfikować tego urządzenia. Spróbuj ponownie.",
+        "appAttest": "Nie udało się zweryfikować tej instalacji aplikacji. Spróbuj ponownie."
+      }
+    }
+  },
+  "settings": {
+    "experience": {
+      "label": "Personalizacja",
+      "rateTheApp": {
+        "title": "Oceń aplikację"
+      },
+      "language": {
+        "title": "Język"
+      }
+    },
+    "legal": {
+      "label": "Informacje prawne",
+      "privacyPolicy": {
+        "title": "Polityka prywatności"
+      },
+      "termsOfUse": {
+        "title": "Warunki użytkowania (EULA)"
+      },
+      "resetAiSharing": {
+        "title": "Resetuj wybór udostępniania AI",
+        "alertTitle": "Resetuj wybór udostępniania AI",
+        "alertMessage": "Przy następnym tworzeniu wyglądu ponownie wyjaśnimy i zapytamy o zgodę przed wysłaniem Twojego portretu do Google. Nie wpływa to na Twoją subskrypcję."
+      }
+    },
+    "information": {
+      "label": "Informacje",
+      "version": {
+        "title": "Wersja"
+      }
+    }
+  },
+  "storeReview": {
+    "gate": {
+      "title": "Czy podoba Ci się Hair Studio?",
+      "yes": "Tak",
+      "no": "Nie"
+    }
+  }
+}

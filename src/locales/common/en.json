@@ -1,0 +1,11 @@
+{
+  "language": {
+    "en": "English",
+    "pl": "Polish",
+    "system": "System"
+  },
+  "actions": {
+    "cancel": "Cancel",
+    "reset": "Reset"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "steps": {
+    "hair-change": {
+      "title": "Nowa fryzura,\n",
+      "titleAccent": "ta sama Ty",
+      "subtitle": "Zobacz efekt cięcia, zanim się zdecydujesz.",
+      "cta": "Dalej"
+    },
+    "hair-color": {
+      "title": "Kolor bez limitów\n",
+      "titleAccent": " wyraź swój styl",
+      "subtitle": "Podgląd naturalnych i odważnych kolorów włosów od razu.",
+      "cta": "Dalej"
+    },
+    "make-up": {
+      "title": "Makijaż w\n",
+      "titleAccent": "jednym tapnięciu",
+      "subtitle": "Wypróbuj soft glam, wyraziste usta i więcej.",
+      "cta": "Kontynuuj"
+    }
+  }
+}
