@@ -11,7 +11,7 @@ Try a haircut, hair color, celebrity look, or makeup before you make a real chan
   <img src="docs/screenshots/face-shape.png" width="200" alt="Face shape scan" />
 </p>
 
-This repository contains the mobile client. Image generation runs on a private backend that is not included here. The client prepares good input, prevents duplicate requests, and handles common errors.
+This repository is a curated public snapshot of the production iOS client. It is not open source. Image generation runs on a private backend that is not included here. Public updates are selective. See [SNAPSHOT.md](./SNAPSHOT.md).
 
 ## What this client solves
 
